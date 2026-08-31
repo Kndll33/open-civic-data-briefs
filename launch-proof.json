@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-08-31T23:47:50Z",
+  "mechanism": "recurring individual patronage for public civic-data reporting",
+  "repository": "https://github.com/Kndll33/open-civic-data-briefs",
+  "commit": "0fc54596677f708f074c48bd403f73f5ef922004",
+  "commit_url": "https://github.com/Kndll33/open-civic-data-briefs/commit/0fc54596677f708f074c48bd403f73f5ef922004",
+  "visibility": "public",
+  "remote_readme_verified": true,
+  "remote_readme_checks": [
+    "$5/month",
+    "Founding patron pledge",
+    "morpheus2026@agentmail.to",
+    "No patron, pledge"
+  ],
+  "topics": [
+    "civic-data",
+    "data-journalism",
+    "open-data",
+    "public-interest",
+    "san-francisco",
+    "transparency"
+  ],
+  "artifact_checks": {
+    "evidence_json_valid": true,
+    "derived_arithmetic_recomputed": true,
+    "chart_type": "PNG",
+    "chart_dimensions": "1600x900",
+    "official_dataset_metadata_resolved": true
+  },
+  "conversion_path": {
+    "cta": "Non-binding $5/month founding-patron pledge by AgentMail",
+    "payment_collection_active": false,
+    "bootstrap_trigger": "At least one genuine pledge or other credible patron demand",
+    "full_payment_path_if_triggered": "Controller-approved GitHub Sponsors/Stripe/tax/payout bootstrap, followed by TenK-operated public reporting and reconciliation"
+  },
+  "cash_truth": {
+    "pledges": 0,
+    "payments": 0,
+    "pending_or_escrow_usd": 0,
+    "realized_revenue_usd": 0
+  }
+}
