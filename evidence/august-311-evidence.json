@@ -1,5 +1,5 @@
 {
-  "validated_at": "2026-08-31T22:48:00Z",
+  "validated_at": "2026-09-02T17:31:00Z",
   "source": {
     "publisher": "DataSF / San Francisco 311",
     "dataset_id": "vw6y-z8j6",
@@ -9,24 +9,24 @@
   },
   "coverage": {
     "filter": "requested_datetime >= 2026-08-01T00:00:00 and < 2026-09-01T00:00:00",
-    "cases": 73546,
+    "cases": 76228,
     "first_case": "2026-08-01T00:01:01.000",
-    "last_case": "2026-08-30T23:53:46.000"
+    "last_case": "2026-08-31T23:56:45.000"
   },
-  "top_services": [["Street and Sidewalk Cleaning",26773],["Parking Enforcement",17087],["General Request",5566],["Graffiti Public",4872],["Encampment",3580],["Graffiti Private",2181],["Blocked Street and Sidewalk",2102],["Noise",1676],["Tree Maintenance",1348],["RPD General",1317]],
-  "top_neighborhoods": [["Mission",9214],["South of Market",5702],["Tenderloin",2631],["Lower Nob Hill",2400],["Outer Sunset",1988],["Mission Dolores",1836],["Inner Richmond",1781],["Outer Richmond",1571],["Bernal Heights",1446],["Nob Hill",1358]],
-  "mission_services": [["Street and Sidewalk Cleaning",4008],["Parking Enforcement",1766],["Graffiti Public",874],["Graffiti Private",633],["Encampment",609],["General Request",454]],
+  "top_services": [["Street and Sidewalk Cleaning",27835],["Parking Enforcement",17733],["General Request",5767],["Graffiti Public",5011],["Encampment",3696],["Graffiti Private",2242],["Blocked Street and Sidewalk",2171],["Noise",1709],["Tree Maintenance",1407],["RPD General",1362]],
+  "top_neighborhoods": [["Mission",9569],["South of Market",5882],["Tenderloin",2743],["Lower Nob Hill",2513],["Outer Sunset",2054],["Mission Dolores",1904],["Inner Richmond",1858],["Outer Richmond",1617],["Bernal Heights",1495],["Nob Hill",1410]],
+  "mission_services": [["Street and Sidewalk Cleaning",4179],["Parking Enforcement",1844],["Graffiti Public",903],["Graffiti Private",645],["Encampment",631],["General Request",473],["Noise",127],["Tree Maintenance",116],["Litter Receptacle Maintenance",90],["Blocked Street and Sidewalk",71]],
   "derived_percentages": {
-    "street_cleaning_share_pct": 36.4,
-    "parking_share_pct": 23.2,
-    "top_two_share_pct": 59.6,
-    "mission_share_pct": 12.5,
-    "mission_cleaning_share_pct": 43.5,
+    "street_cleaning_share_pct": 36.5,
+    "parking_share_pct": 23.3,
+    "top_two_share_pct": 59.8,
+    "mission_share_pct": 12.6,
+    "mission_cleaning_share_pct": 43.7,
     "mission_vs_soma_ratio": 1.6
   },
   "limitations": [
     "Counts represent requests/cases, not unique incidents, verified conditions, completed work, or resident population rates.",
     "Neighborhood values use the dataset's SFFind boundary field; null-neighborhood records are excluded from neighborhood ranking.",
-    "The apparent August period is incomplete because the newest included requested_datetime was 2026-08-30T23:53:46 at validation time."
+    "The query covers the full August request-date window at validation time, but later source updates may revise totals."
   ]
 }
